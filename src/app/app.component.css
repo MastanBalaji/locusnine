@@ -1,0 +1,143 @@
+.section1{
+    margin: 2rem 3rem;
+}
+.main-heading{
+    font-family: Roboto light;
+    font-size: 3rem;
+    color: #231F20;
+    word-wrap: none;
+    text-transform: uppercase;
+}
+.header{
+    margin:2rem 0;
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    animation: heai 1000ms ease-in;
+}
+.nav-sty{
+    background: white;
+}
+li{
+    margin:0 1rem;
+    padding: 1rem 0;
+   display: inline-block;
+   box-sizing: border-box;
+}
+li a{
+    white-space: nowrap;
+    font-family: Roboto Medium;
+    text-decoration: none;
+    color: #2C3E50;
+    opacity: 0.5;
+    font-size: 0.9rem;
+}
+ul li a:hover{
+    color: #2196F3;
+    opacity: 1;
+}
+table {
+    width: 100%;
+  }
+table th{
+    font-family: Roboto medium;
+    color: #231F20;
+    font-size: 1rem;
+    font-size: 0.9rem;
+}
+table td{
+    font-family: Roboto regular;
+    color: #231F20;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    padding: 0.5rem;
+}
+.red{
+    background-color: red;
+}
+.table-section{
+    max-width: 100%;
+    overflow-x: scroll;
+}
+.section2{
+    margin: 2rem 3rem;
+}
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    .main-heading{
+        font-size: 1.5rem;
+        float:right;
+        vertical-align: baseline;
+    }
+    .header{
+        display:block;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .main-heading{
+        font-size: 2rem;
+        float:right;
+        vertical-align: baseline;
+    }
+    .header{
+        display:block;
+    }
+}
+.text{
+    color: #2c3e50;
+    font-size: 1.5rem;
+    opacity: 0.5;
+}
+.borderless td, .borderless th {
+    border: none;
+}
+.ta-hd{
+font-weight: bold;
+color: white;
+}
+.td-rt{
+    font-weight: bolder;
+    color:white !important;
+    float: right;
+    font-size: 1.4rem !important;
+}
+.td-lt{
+color: white !important;
+opacity: 0.6;
+font-size: 1.3rem !important;
+}
+.crd{
+    background: #1976D2;
+}
+.crd1{
+    height: 239px;
+    padding: 2.5rem;
+}
+.num{
+    color: #2196F3;
+}
+.funnel{
+    height: 90%;
+    animation: funne 1100ms ease-in;
+}
+
+@keyframes heai{
+    0%{
+ transform: translatey(-100%);
+    }
+    90%{
+        transform: translatey(20%);
+    }
+    100%{
+ transform: translatey(0%);
+    }
+}
+@keyframes funne{
+    0%{
+ transform: translatex(-100%);
+    }
+
+    100%{
+ transform: translatex(0%);
+    }
+}
